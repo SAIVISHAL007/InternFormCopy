@@ -1,0 +1,66 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+hr {
+  border: 1px solid orange;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 15px; 
+  transition: box-shadow 0.3s ease; 
+}
+
+form:hover {
+  box-shadow: 0 0 15px orange; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff9900;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}

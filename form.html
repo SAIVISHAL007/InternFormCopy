@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internship Application</title>
+  <link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+  <h1><img src="samsung.png" alt="Company Logo" width="100" height="100">
+Apply for SAMSUNG Internship</h1>
+  <hr>
+  <form action="submit.html" method="post" enctype="multipart/form-data">
+    <label>Full Name:</label><br>
+    <input type="text" name="name" required><br><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male" required> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" required><br><br>
+    <label>College/University:</label><br>
+    <input type="text" name="college" required><br><br>
+    <label>Degree:</label><br>
+    <input type="text" name="degree" required><br><br>
+    <label>Languages Known:</label><br>
+    <input type="checkbox" name="languages" value="Python"> Python<br>
+    <input type="checkbox" name="languages" value="JavaScript"> JavaScript<br>
+    <input type="checkbox" name="languages" value="C"> C<br>
+    <input type="checkbox" name="languages" value="Java"> Java<br>
+    <input type="checkbox" name="languages" value="C++"> C++<br><br>
+    <label>Year of Study:</label><br>
+    <select name="year" required>
+      <option value="">--Select--</option>
+      <option value="1st">1st Year</option>
+      <option value="2nd">2nd Year</option>
+      <option value="3rd">3rd Year</option>
+      <option value="4th">4th Year</option>
+      <option value="completed">Completed</option>
+    </select><br><br>
+    <label>Preferred Internship Domain:</label><br>
+    <input type="text" name="domain" required><br><br>
+    <label>Upload Resume:</label><br>
+    <input type="file" name="resume" required><br><br>
+    <label>Why do you want this internship?</label><br>
+    <textarea name="motivation" rows="4" required></textarea><br><br>
+    <input type="submit" value="Submit Application">
+  </form>
+  <p>Thank you for applying!</p>
+</body>
+</html>
